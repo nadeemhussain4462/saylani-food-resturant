@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Restaurant Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"><img src="images/zomato-logo.avif" alt="" /></div>
+        <div class="location-search">
+          <i class="fa-solid fa-location-dot"></i
+          ><input type="text" placeholder=" Block B, Jaypee Greens, G" /><i
+            class="fa-solid fa-caret-down"
+          ></i>
+          <span class="pipe">|</span>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Search for restaurant, cuisine or a dish"
+          />
+        </div>
+        <div class="auth">
+          <button>Log in</button>
+          <button>Sign up</button>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="container">
+        <li><a href="#">Dining Out</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Nightlife</a></li>
+      </ul>
+    </nav>
+
+    <section class="collections container">
+      <h2>Collections</h2>
+      <p>
+        Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi
+        NCR, based on trends
+      </p>
+      <div class="collections-grid">
+        <div class="collection-item">
+          <img src="image1.jpg" alt="Top Trending Spots" />
+          <h3>Top Trending Spots</h3>
+          <p>29 Places</p>
+        </div>
+        <div class="collection-item">
+          <img src="image2.jpg" alt="Best Insta-worthy Places" />
+          <h3>Best Insta-worthy Places</h3>
+          <p>37 Places</p>
+        </div>
+        <div class="collection-item">
+          <img src="image3.jpg" alt="Newly Opened Places" />
+          <h3>Newly Opened Places</h3>
+          <p>12 Places</p>
+        </div>
+        <div class="collection-item">
+          <img src="image4.jpg" alt="Best Rooftop Places" />
+          <h3>Best Rooftop Places</h3>
+          <p>49 Places</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
