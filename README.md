@@ -1,0 +1,2 @@
+# saylani food resturant
+ Saylani Food Restaurant is a part of the Saylani Welfare International Trust, a renowned charitable organization based in Karachi, Pakistan. The restaurant is known for providing affordable and high-quality meals to the public, with a focus on helping the underprivileged. Located at 4 Minar Chowrangi, Bahadurabad, Karachi, it offers a variety of traditional Pakistani dishes, ensuring that everyone has access to nutritious food
