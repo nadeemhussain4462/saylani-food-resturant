@@ -67,40 +67,40 @@ header {
   font-size: 14px;
   color: rgb(148, 155, 155);
 }
-.icon{
+.icon {
   width: 30px;
   height: 30px;
   padding: 10px;
   border-radius: 50px;
   background-color: rgb(181, 190, 187);
 }
-.container {
+.mini-icon {
   display: inline-flex;
   list-style: none;
   padding: 0;
-  margin: 0;
-  justify-content: center;
+  margin: 20px;
+  margin-left: 130px;
 }
 
-.container li {
-  align-items: center;
-  margin: 0 20px;
+.mini-icon li {
+  margin-left: 50px;
 }
 
-.container li a {
-  text-align: center;
+.mini-text {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  padding: 6px;
 }
 
 .collections {
-  margin: 20px 0;
-  text-align: center;
+  margin: 20px 100px;
+  text-align: start;
 }
 
 .collections h2 {
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -124,7 +124,7 @@ header {
 
 .collection-item img {
   width: 100%;
-  height: 150px;
+  height: 300px;
   object-fit: cover;
 }
 
