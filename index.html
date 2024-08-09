@@ -1,81 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zomato Restaurant Page</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo"><img src="images/logo-png.png" alt="" /></div>
-        <div class="location-search">
-          <i class="fa-solid fa-location-dot"></i
-          ><input placeholder=" Block B, Jaypee Greens, G" />
-          <i class="fa-solid fa-caret-down"></i>
-          <span class="pipe">|</span>
-          <i class="fa-solid fa-magnifying-glass"> </i>
-          <input
-            placeholder="Search for restaurant, cuisine or a dish"
-            size="40"
-          />
-        </div>
-        <div class="auth">
-          <button>Log in</button>
-          <button>Sign up</button>
-        </div>
-      </div>
-      <div class="nav">
-        <ul>
-          <li class="#">Home /</li> 
-          <li class="#">Pakistan /</li> 
-          <li class="#">Karachi /</li> 
-          <li class="#">Restaurant</li>
-        </div>
-      </ul>
-      
-      <ul class="mini-icon">
-        <li ><img class="icon" src="images/dining.avif" alt=""><a class="mini-text" href="#">Dining Out</a></li>
-        <li ><img class="icon" src="images/delivery.webp" alt=""><a class="mini-text" href="#">Delivery</a></li>
-        <li ><img class="icon" src="images/night.webp" alt=""><a class="mini-text" href="#">Nightlife</a></li>
-      </ul>
-    </header>
 
-    <section class="collections">
-      <h2>Collections</h2>
-      <p>
-        Explore curated lists of top restaurants, cafes, pubs, and bars in Sindh KHI, based on trends
-      </p>
-      <div class="collections-grid">
-        <div class="collection-item">
-          <img src="images/card-1.avif" alt="Top Trending Spots" />
-          <h3>Top Trending Spots</h3>
-          <p>29 Places</p>
-        </div>
-        <div class="collection-item">
-          <img src="images/card-2.avif" alt="Best Insta-worthy Places" />
-          <h3>Best Insta-worthy Places</h3>
-          <p>37 Places</p>
-        </div>
-        <div class="collection-item">
-          <img src="images/card-3.avif" alt="Newly Opened Places" />
-          <h3>Newly Opened Places</h3>
-          <p>12 Places</p>
-        </div>
-        <div class="collection-item">
-          <img src="images/card-4.avif" alt="Best Rooftop Places" />
-          <h3>Best Rooftop Places</h3>
-          <p>49 Places</p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zomato Restaurant Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo"><img src="images/logo-png.png" alt="" /></div>
+      <div class="location-search">
+        <i class="fa-solid fa-location-dot"></i><input placeholder=" Block B, Jaypee Greens, G" />
+        <i class="fa-solid fa-caret-down"></i>
+        <span class="pipe">|</span>
+        <i class="fa-solid fa-magnifying-glass"> </i>
+        <input placeholder="Search for restaurant, cuisine or a dish" size="40" />
       </div>
-    </section>
+      <div class="auth">
+        <button>Log in</button>
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="nav">
+      <ul>
+        <li class="#">Home /</li>
+        <li class="#">Pakistan /</li>
+        <li class="#">Karachi /</li>
+        <li class="#">Restaurant</li>
+    </div>
+    </ul>
+
+    <ul class="mini-icon">
+      <li><img class="icon" src="images/dining.avif" alt=""><a class="mini-text" href="#">Dining Out</a></li>
+      <li><img class="icon" src="images/delivery.webp" alt=""><a class="mini-text" href="#">Delivery</a></li>
+      <li><img class="icon" src="images/night.webp" alt=""><a class="mini-text" href="#">Nightlife</a></li>
+    </ul>
+  </header>
+
+  <section class="collections">
+    <h2>Collections</h2>
+    <p class="p">
+      Explore curated lists of top restaurants, cafes, pubs, and bars in Sindh KHI, based on trends
+    </p>
+    <div class="collections-grid">
+      <div class="collection-item">
+        <img src="images/card-1.avif" alt="Top Trending Spots" />
+        <h3>Top Trending Spots</h3>
+        <p>29 Places</p>
+      </div>
+      <div class="collection-item">
+        <img src="images/card-2.avif" alt="Best Insta-worthy Places" />
+        <h3>Best Insta-worthy Places</h3>
+        <p>37 Places</p>
+      </div>
+      <div class="collection-item">
+        <img src="images/card-3.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="collection-item">
+        <img src="images/card-4.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div>
+    </div>
+  </section>
+  <div class="filter">
+    <button type="button" class="btn btn-light">Filters</button>
+    <button type="button" class="btn btn-light">Offers</button>
+    <button type="button" class="btn btn-light">Rating: 4.0+</button>
+    <button type="button" class="btn btn-light">Pet Friendly</button>
+    <button type="button" class="btn btn-light">Outdoor Seating</button>
+    <button type="button" class="btn btn-light">Serves Alcohol</button>
+    <button type="button" class="btn btn-light">Open Now</button>
+  </div>
+  <div class="dis-card">
+    <img src="images/offer-card.avif" alt="offer-card">
+    <br>
+    <h2>Trending dining out restaurants in</h2>
+  </div>
+  <div class="resturant-cards">
+    <div class="resturant-grid">
+      <div class="resturant-item">
+        <img src="images/resturant-card1.avif" alt="Top Trending Spots" />
+        <h3>Top Trending Spots</h3>
+        <p>29 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card2.avif" alt="Best Insta-worthy Places" />
+        <h3>Best Insta-worthy Places</h3>
+        <p>37 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card3.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card4.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card5.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card6.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div><div class="resturant-item">
+        <img src="images/resturant-card7.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card8.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div><div class="resturant-item">
+        <img src="images/resturant-card9.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card10.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div><div class="resturant-item">
+        <img src="images/resturant-card11.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card12.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div><div class="resturant-item">
+        <img src="images/resturant-card13.avif" alt="Newly Opened Places" />
+        <h3>Newly Opened Places</h3>
+        <p>12 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card14.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div>
+      <div class="resturant-item">
+        <img src="images/resturant-card15.avif" alt="Best Rooftop Places" />
+        <h3>Best Rooftop Places</h3>
+        <p>49 Places</p>
+      </div>
+    </div>
+  </div>
   </body>
+
 </html>
