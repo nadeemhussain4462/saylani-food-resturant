@@ -162,48 +162,118 @@ header {
   margin: -10px 100px;
 }
 
-.resturant-cards{
-  margin: 20px 100px;
+.resturant-cards {
+  margin: 30px 100px;
   text-align: start;
 }
 
-.resturant h2 {
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.resturant .p {
-  color: #666;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.resturant-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-}
-
-.resturant-item {
-  background-color: white;
-  border-radius: 12px;
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
 
-.resturant-item img {
+.title-rate {
+  display: flex;
+}
+
+.country-amount {
+  display: flex;
+}
+
+.loc-dis {
+  display: flex;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
   width: 100%;
-  height: 270px;
+  height: 250px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
-.resturant-item h3 {
-  font-size: 18px;
-  margin: 10px;
+.card-content {
+  padding: 15px;
+  display: block;
 }
 
-.resturant-item p {
+.card-content h2 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+.card-content p {
+  font-size: inherit;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgb(105, 105, 105);
+  max-width: 50%;
+  padding: 0px 0px 0.4rem;
+}
+
+.card-content .price {
+  color: #333;
+  font-weight: bold;
+  margin-left: 180px;
+}
+
+.card-content .location {
   color: #666;
-  margin: 0 10px 10px;
+  font-size: 0.9em;
 }
+
+.card-content .distance {
+  color: #999;
+  font-size: 0.9em;
+  margin-left: 180px;
+}
+
+.card-content .rating {
+  color: #28a745;
+  margin-left: 180px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.discount {
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  border-radius: 0 0 5px 5px;
+  top: 0;
+  left: 0;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .card-content h2 {
+    font-size: 1em;
+  }
+
+  .card-content p {
+    font-size: 0.8em;
+  }
+}
+/*  */
