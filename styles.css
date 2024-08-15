@@ -59,13 +59,13 @@ header {
   gap: 8px;
   background-color: white;
   margin-left: 70px;
-  margin: 0 0 0 400px;
+  margin: 5px 0 0 400px;
 }
 .nav li {
   width: 100%;
   display: inline;
   align-items: center;
-  margin: 0 5px;
+  margin: 0px 5px;
   list-style-type: none;
   font-size: 14px;
   color: rgb(148, 155, 155);
@@ -83,7 +83,6 @@ header {
   padding: 0;
   margin: 20px;
   margin-left: 370px;
-
 }
 
 .mini-icon li {
@@ -400,6 +399,69 @@ header {
 
   .footer .app-links {
     text-align: center;
+  }
+}
+/*  */
+.section {
+  padding: 40px 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 1.9em;
+  margin-bottom: 20px;
+  margin: 0 20%;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.circle-container::-webkit-scrollbar {
+  display: none;
+}
+
+.circle {
+  flex: 0 0 auto;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.circle img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e4e4e4;
+}
+
+.circle p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+.circle img:hover {
+  border-color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .circle-container {
+    flex-wrap: nowrap;
+  }
+
+  .circle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle p {
+    font-size: 0.9em;
   }
 }
 /*  */
