@@ -178,14 +178,17 @@ header {
 
 .title-rate {
   display: flex;
+  justify-content: space-between;
 }
 
 .country-amount {
   display: flex;
+  justify-content: space-between;
 }
 
 .loc-dis {
   display: flex;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -201,10 +204,10 @@ header {
 
 .card-content {
   padding: 15px;
-  display: block;
 }
 
 .card-content h2 {
+  display: flex;
   font-size: 1.2em;
   margin: 0 0 10px;
 }
@@ -215,10 +218,10 @@ header {
   margin: 0px;
   text-align: left;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
   color: rgb(105, 105, 105);
-  max-width: 50%;
+  /* max-width: 50%; */
   padding: 0px 0px 0.4rem;
 }
 
@@ -274,6 +277,125 @@ header {
 
   .card-content p {
     font-size: 0.8em;
+  }
+}
+/*  */
+
+/*  */
+.footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .column {
+  flex: 1 1 200px;
+  text-align: start;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer .column h3 {
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .column ul li {
+  margin-bottom: 1px;
+}
+
+.footer .column ul li a {
+  text-decoration: none;
+  color: #5a5a5a;
+  transition: color 0.3s ease;
+}
+
+.footer .column ul li a:hover {
+  color: #363636;
+}
+
+.footer .social-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer .social-links a {
+  color: #333;
+  margin-right: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  color: #1b1b1b;
+}
+
+.footer .app-links {
+  margin-top: -30px;
+}
+
+.footer .app-links img {
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: -30px;
+  margin-top: -5px;
+}
+
+.footer-bottom {
+  text-align: start;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: -50px;
+  padding-top: 20px;
+}
+
+.footer-bottom a {
+  color: #77787a;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .column {
+    flex: 1 1 100%;
+  }
+
+  .footer .social-links {
+    justify-content: center;
+  }
+
+  .footer .app-links {
+    text-align: center;
   }
 }
 /*  */
