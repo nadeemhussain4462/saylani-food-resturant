@@ -170,6 +170,9 @@ header {
   text-align: start;
 }
 
+.resturant-cards h2{
+  margin: 10px;
+}
 .card {
   background-color: #fff;
   border-radius: 10px;
